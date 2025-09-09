@@ -6,3 +6,6 @@ The imagery was obtained from Maxar Technologies which is available to NASA Eart
 
 The "predictions_multisiteloop_v10_ADAPT.py" is a interference script on a series of QuickBird and Maxar images (specified by a directory containing multi-regions of 2-by-2 km images) with the posibility to save the predictions.
 
+In addition, there are two scripts involved for training and interference of the Planet imagery.
+
+Furthermore, post-processing scripts allow furhter analysis of the model estimates to gain shrub cover and trends.
