@@ -1,1 +1,8 @@
+The training scrips all start with "model_" with the specific model stated in the script name. For example "model_cnn_model3_512.py" is the CNN model with 512 filters.
+Each model was trained on 2 × 2 km TOA radiance QuickBird and WorldView pansharpened multispectral (PSHP; 4 channels) and panchromatic (P1BS; 1 channel) scenes, which were further subdived into 4,100 200 × 200 m tile PSHP and P1BS images for the manuscript. 
+The five main models compared are: CNN, U-Net, ResNet-50, VGG-19, Vision Transformer. There are also scipts available of other ML-models and non-ML models.
+
+The imagery was obtained from Maxar Technologies which is available to NASA Earth Science investigators, through an agreement with the National Geospatial-intelligence Agency (NGA) at the NASA Center for Climate Simulation (NCCS) with distribution for ABoVE investigators effected on the ABoVE Science Cloud (ASC).
+
+The "predictions_multisiteloop_v10_ADAPT.py" is a interference script on a series of QuickBird and Maxar images (specified by a directory containing multi-regions of 2-by-2 km images) with the posibility to save the predictions.
 
