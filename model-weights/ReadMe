@@ -1,0 +1,1 @@
+You can donwload the model weights for shrub detection in Maxar's QuickBird and WorldView images from this download link. Keep in mind that you need enough disk space ~2 GB for 5 models of CNN (19.4 MB), U-Net (63 MB), VGG (280 MB), ResNet (665 MB) and ViT (1.25 GB): https://drive.google.com/drive/folders/18RwCZTUjbOokls6BGWSdhVGtjR_bV-kS?usp=share_link
